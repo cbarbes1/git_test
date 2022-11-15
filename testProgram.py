@@ -4,7 +4,7 @@ import random
 
 print("Hello Welcome to the game")
 gameStatus = False
-randomNumber = random.randint(2, 4)
+randomNumber = random.randint(0, 10)
 print(randomNumber)
 while(not gameStatus):
     userGuess = int(input("Enter a guess between 1 and 10"))
